@@ -1,0 +1,232 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+  background-color: rgb(65, 98, 197);
+}
+
+.Front{
+  color:black;
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-top: 120px;
+  font-size: 50px;
+}
+
+.smallFront{
+  color: black;
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.smaller{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 90px;
+}
+
+.smaller a{
+  color:white;
+  text-decoration: none;
+}
+  
+.smaller1 a, .smaller2 a {
+  display: inline-block;
+  padding: 12px 20px;
+  border: 2px solid white;
+  border-radius: 25px;
+  background-color: rgb(65, 98, 197);
+  color: black;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.smaller1 a:hover, .smaller2 a:hover {
+  background-color: rgb(65, 98, 197);
+  color:white;
+}
+
+.featured{
+  color:black;
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-top: 250px;
+
+
+}
+.checks a {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: rgb(65, 98, 197);
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 450px;
+  text-decoration: none;
+}
+
+.checks a:hover {
+  background-color: rgb(65, 98, 197);
+  color:white;
+
+}
+
+.pictures{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.pictures img{
+  border: 2px solid #ff3d0036;
+  border-radius: 13px;
+  box-shadow: 4px 7px 7px 0px #000042;
+  cursor: pointer;
+  margin: 10px;
+  transition: 400ms;
+}
+
+.pictures img:hover {
+  transform: scale(1.03);
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+  display: block;
+}
+
+.site-title {
+  color: white;
+  font-size: 24px;
+  margin-left: 15px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar li h2 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+}
+
+.navbar a:hover {
+  background-color: rgb(73, 73, 170);
+  border-radius: 5px;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  padding-bottom: 80px;
+  background-image: url("Jerseypicture.jpg");
+  background-repeat: no-repeat;
+
+  
+  background-size: 1500px 800px;
+  background-position: center top; 
+}
+
+
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+   background-color: rgb(65, 98, 197);
+  color: white;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footer-columns ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-columns li {
+  margin-bottom: 8px;
+}
+
+.footer-columns a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-columns a:hover {
+  text-decoration: underline;
+}
+
+.kdfooter{
+  margin-right: 200px;
+}
+
+.footer fb{
+  height: -100px;
+  width: -100px;
+  bottom: 0px;
+  right: 0px;
+}
