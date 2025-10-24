@@ -22,7 +22,7 @@ body {
   align-items: center;
   height: 60px;
   padding: 0 20px;
-  background-color: rgb(65, 98, 197);
+  background-color: rgb(6, 80, 132);
 }
 
 .logo-title {
@@ -76,7 +76,7 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-   background-color: rgb(65, 98, 197);
+  background-color: rgb(6, 80, 132);
   color: white;
   padding: 20px;
   z-index: 1000;
